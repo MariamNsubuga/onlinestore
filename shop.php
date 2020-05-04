@@ -220,7 +220,7 @@ if(!(isset($_SESSION['username'])&& $_SESSION['username']!="")){
                                            <form action="product-details.php" action="POST">
                                            <input type="hidden" value="'.$row['product_id'].'" name="product_id"/>
                                            <button type="submit" name="submit" value="submit" class="btn-floating btn waves-effect waves-light">
-                                                                    <h6><a data-toggle="tooltip" data-placement="left" title="Add to Cart"><img src="img/core-img/cart.png" alt=""></a></button>
+                                                                    <h6><a data-toggle="tooltip" data-placement="left" title="Buy Now"><img src="img/core-img/cart.png" alt=""></a></button>
                                                                 
                                            </form>
                                                
